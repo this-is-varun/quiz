@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backdrop_home{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+ }
+.main_home{
+    height: 50%;
+    width: 30%;
+ 
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: #075277;
+    border-radius: 4px;
+
+}
+button{
+    padding: 0.5rem 4rem;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+         width: 90%;
+    }
+}
